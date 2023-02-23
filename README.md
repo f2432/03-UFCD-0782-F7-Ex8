@@ -1,21 +1,30 @@
-# 03 - UFCD-0782 - F7 - Ex7
+# 03 - UFCD-0782 - F7 - Ex8
 Este exercício é escrito em C, será testado com o make e um script bash.
 
 ### O Exercício
-Escreva um programa que peça ao utilizador para digitar o preço diário do aluguer de um
-carro, o número de dias e o número de quilômetros que um carro fez, e calcule o valor a ser
-pago pelo aluguer do carro.. O aluguer do carro é calculado da seguinte forma:  
-• Cada dia tem um custo fixo.  
-• Ao preço de cada dia acresce o valor de 0,1€ por cada kilómetro feito.  
+Escreva um programa que peça ao utilizador para digitar a quantidade de dinheiro
+disponível para fazer compras. A seguir, deve pedir o nome e o preço de 3 produtos,
+apresentar a lista de compras, do total comprado e do dinheiro disponível no final.
+
 
 ### Saída Esperada:
-Preço diário do aluguer:  
-10 ↵  
-Número de dias do aluguer:  
+Dinheiro disponível para as compras:  
+20 ↵  
+Qual é o nome e preço do primeiro produto?  
+pão ↵  
 5 ↵  
-Kilómetros realizados:  
-100 ↵  
-O preço do aluguer é 60 Euros.  
+Qual é o nome e preço do segundo produto?  
+sumos ↵  
+3 ↵  
+Qual é o nome e preço do terceiro produto?  
+manteiga ↵  
+5 ↵  
+Compras feitas:  
+pão – 5 Euros  
+sumos – 3 euros  
+manteiga – 5 euros  
+Total: 13 euros  
+Sobrou: 7 Euros  
  
 ### Notas
 - o teste verificará se a saída do programa é exatamente a esperada.  
